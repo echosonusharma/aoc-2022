@@ -1,7 +1,7 @@
 import { readData } from './index';
 
 interface I_CONST<T> {
-	[x: string]: T;
+	[keys: string]: T;
 }
 
 const POINTS: I_CONST<number> = {
@@ -27,18 +27,6 @@ const DRAW: I_CONST<string> = {
 	B: 'Y',
 	C: 'Z',
 };
-
-// a - rock - x - 1
-// b - paper - y - 2
-// c - scissors - z - 3
-
-// won - 6
-// draw - 3
-// lost - 0
-
-// r - p
-// p - s
-// s - r
 
 export const solution = (): void => {
 	const data = readData(2)?.split('\r\n') as Array<string>;
