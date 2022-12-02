@@ -1,0 +1,21 @@
+{
+	"name": "aoc-2022",
+	"version": "1.0.0",
+	"description": "advent of code 2022",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "tsc",
+		"watch": "tsc-watch --onSuccess  \"node ./dist\""
+	},
+	"keywords": [],
+	"author": "sonu sharma",
+	"license": "MIT",
+	"dependencies": {
+		"typescript": "^4.9.3"
+	},
+	"devDependencies": {
+		"@types/node": "^18.11.9",
+		"tsc-watch": "^5.0.3"
+	}
+}
