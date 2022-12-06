@@ -1,6 +1,6 @@
 import { readFileSync } from 'node:fs';
 
-import { solution } from './day4';
+import { solution } from './day5';
 
 export const readData = (day: number): string | undefined => {
 	try {
